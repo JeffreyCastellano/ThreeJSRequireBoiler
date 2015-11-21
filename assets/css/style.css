@@ -1,0 +1,55 @@
+/* fonts */
+@font-face {
+  font-family: Hamburger;
+  src: url(../font/Hamburger.ttf);
+}
+
+/* base styles */
+
+html {
+  font-family: "Hamburger", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  line-height: 1.2;
+  color: #fed;
+  text-shadow: black 5px 5px;
+  text-align: center;
+  background: #000;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  font-size: 70px;
+}
+
+p {
+  margin: 0 0 10px 0;
+}
+
+#container { position: relative; }
+
+
+#threejs_container {
+  position: relative;
+  background:#000;
+  color: #666;
+  text-align: center;
+  padding: 100% 0 0 0;
+  height: 0;
+}
+
+#threejs_container canvas {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+#loading {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	z-index:100;
+}
